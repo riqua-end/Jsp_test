@@ -1,0 +1,116 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap');
+
+/*header css */
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color:#f1f1f1;
+}
+.bg-dark {
+    background-color: #010101!important;
+}
+.navbar-dark .navbar-brand {
+    color: #ec0e0e;
+    text-decoration: none;
+}
+.dropdown-menu {
+    left: -65px;
+    top: 114%;
+    padding:0;
+    background-color: #010101;
+}
+.dropdown-item{
+    color: azure;
+}
+
+/* footer css */
+
+.display-5 {
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 1.5rem;
+	color: white;
+	text-shadow: 3px 3px 3px rgba(7, 233, 176, 0.692);
+}
+
+p {
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 1.1rem;
+}
+
+.form-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form-footer {
+	background-color: rgba(172, 197, 211, 0.856);
+	border-radius: 0.25rem;
+	max-width: 100%;
+	padding: 10px;
+	margin: 10px;
+}
+/* 하단 소셜 로그인 */
+.form-footer {
+	background-color: rgba(172, 197, 211, 0.856);
+	border-radius: 0.25rem;
+	max-width: 100%;
+	padding: 10px;
+	margin: 10px;
+}
+
+.login-card-social {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+
+.login-card-social>div {
+	opacity: .8;
+	letter-spacing: 1px;
+	font-size: calc(1rem * .8);
+}
+
+.login-card-social-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.login-card-social-btn a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgba(255, 255, 255, .7);
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	transition: all .5s;
+}
+
+.facebook-logo {
+	background: linear-gradient(to right, #002bff, #4415d3bf);
+}
+
+.twitter-logo {
+	background: linear-gradient(to right, #0d7474f5, #81acb8bf);
+}
+
+.google-logo {
+	background: linear-gradient(to right, #ff0000, #b14242);
+}
+
+.login-card-social-btn a:hover {
+	transform: scale(1.2);
+	opacity: .8;
+}
